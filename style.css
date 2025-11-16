@@ -46,7 +46,7 @@ body{
 
 /* ---------- Header ---------- */
 .site-header{
-  background: linear-gradient(90deg, rgba(31,111,235,0.97), rgba(16,86,200,0.95));
+  background: linear-gradient(90deg, rgba(31,111,235,0.97), rgba(200, 65, 16, 0.95));
   color: #fff;
   padding: 18px 0;
   box-shadow: var(--shadow-1);
@@ -404,3 +404,4 @@ fieldset{ border:1px dashed rgba(12,20,40,0.05); padding:10px; border-radius:10p
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
+
