@@ -1,0 +1,299 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+</head>
+<body>
+
+    
+    <h1 class="title">Bike rental tariffs in Shevgaon
+    </h1>
+    <p class="subtitle">
+        *All prices are exclusive of taxes and fuel. Images used for representation purposes only, actual color may vary.
+    </p>
+
+    <div class="container"> 
+
+        <div class="card">
+            <img src="images/Activa.jpeg" alt="Honda Activa 5G">
+            <h3>Honda<br>Activa 5G (Special Offer)</h3>
+            <ul>
+                <li>₹ 119/ Daily (24 hrs)</li>
+                <li>₹ 833/ Weekly (Mon–Sun)</li>
+                <li>₹ 4999/ Monthly (30 days)</li>
+            </ul>
+            <button>BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img src="images/shine100.jpeg"alt="Honda Shine 100">
+            <h3>Honda<br>Shine 100 (Special Offer)</h3>
+            <ul>
+                <li>₹ 119/ Daily (24 hrs)</li>
+                <li>₹ 833/ Weekly (Mon–Sun)</li>
+                <li>₹ 6999/ Monthly (30 days)</li>
+            </ul>
+            <button>BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img src="images/Avanjer.jpeg" alt="Bajaj Avenger">
+            <h3>Bajaj<br>Avenger 220 Street</h3>
+            <ul>
+                <li>₹ 149/ Daily (24 hrs)</li>
+                <li>₹ 1043/ Weekly (Mon–Sun)</li>
+                <li>₹ 8999/ Monthly (30 days)</li>
+            </ul>
+            <button>BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img src="images/Gurila.jpeg" alt="Guerrilla 450">
+            <h3>Royal Enfild<br>Guerrilla 450</h3>
+            <ul>
+                <li>₹ 499/ Daily (24 hrs)</li>
+                <li>₹ 2499/ Weekly (Mon–Sun)</li>
+                <li>₹ 15999/ Monthly (30 days)</li>
+            </ul>
+            <button>BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img src="images/shine100.jpeg"alt="Honda Shine CB125">
+            <h3>Honda<br>Shine CB 125</h3>
+            <ul>
+                <li>₹ 199/ Daily (24 hrs)</li>
+                <li>₹ 1393/ Weekly (Mon–Sun)</li>
+                <li>₹ 7999/ Monthly (30 days)</li>
+            </ul>
+            <button>BOOK NOW</button>
+        </div>
+
+        <div class="card">
+            <img src="images/honest.jpeg" alt="Honda Hness CB350">
+            <h3>Honda<br>Hness CB350</h3>
+            <ul>
+                <li>₹ 399/ Daily (24 hrs)</li>
+                <li>₹ 2793/ Weekly (Mon–Sun)</li>
+                <li>₹ 12999/ Monthly (30 days)</li>
+            </ul>
+            <button>BOOK NOW</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="social">
+            <span>✕</span>
+            <span>📘</span>
+            <span>📸</span>
+            <span>🔗</span>
+        </div>
+    </footer>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shevgaon Bike Rentals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <h1>Shevgaon Bike Rentals</h1>
+        <p class="tag">Affordable • Reliable • Clean</p>
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#bikes">Bikes</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-left">
+          <h2>Get on the road — rent a bike in Shevgaon</h2>
+          <p>Daily • Weekly • Monthly packages. Transparent pricing & friendly service.</p>
+          <a href="#bikes" class="btn primary">View Fleet</a>
+        </div>
+        <div class="hero-right">
+          <img src="images/cover.png" alt="Bikes on road" />
+        </div>
+      </div>
+    </section>
+
+    <section id="bikes" class="wrap section">
+      <h2 class="section-title">Bike Rental Tariffs in Shevgaon</h2>
+      <p class="muted">*All prices exclude taxes & fuel. Images for representation only.</p>
+
+      <div class="grid">
+
+        <!-- Each card has data attributes for JavaScript -->
+        <article class="card">
+          <img src="images/Activa.jpeg" alt="Honda Activa 5G">
+          <h3>Honda Activa 5G</h3>
+          <ul class="rates">
+            <li data-rate="daily">Daily: <strong>₹119</strong></li>
+            <li data-rate="weekly">Weekly: <strong>₹833</strong></li>
+            <li data-rate="monthly">Monthly: <strong>₹4999</strong></li>
+          </ul>
+          <a class="btn" href="#" data-bike="Honda Activa 5G" data-daily="119" data-weekly="833" data-monthly="4999">Book Now</a>
+        </article>
+
+        <article class="card">
+          <img src="images/shine100.jpeg" alt="Honda Shine 100">
+          <h3>Honda Shine 100</h3>
+          <ul class="rates">
+            <li data-rate="daily">Daily: <strong>₹119</strong></li>
+            <li data-rate="weekly">Weekly: <strong>₹833</strong></li>
+            <li data-rate="monthly">Monthly: <strong>₹6999</strong></li>
+          </ul>
+          <a class="btn" href="#" data-bike="Honda Shine 100" data-daily="119" data-weekly="833" data-monthly="6999">Book Now</a>
+        </article>
+
+        <article class="card">
+          <img src="images/Avanjer.jpeg" alt="Bajaj Avenger 220 Street">
+          <h3>Bajaj Avenger 220 Street</h3>
+          <ul class="rates">
+            <li data-rate="daily">Daily: <strong>₹149</strong></li>
+            <li data-rate="weekly">Weekly: <strong>₹1043</strong></li>
+            <li data-rate="monthly">Monthly: <strong>₹8999</strong></li>
+          </ul>
+          <a class="btn" href="#" data-bike="Bajaj Avenger 220 Street" data-daily="149" data-weekly="1043" data-monthly="8999">Book Now</a>
+        </article>
+
+        <article class="card">
+          <img src="images/Gurila.jpeg" alt="Royal Enfield Guerrilla 450">
+          <h3>Royal Enfield Guerrilla 450</h3>
+          <ul class="rates">
+            <li data-rate="daily">Daily: <strong>₹499</strong></li>
+            <li data-rate="weekly">Weekly: <strong>₹2499</strong></li>
+            <li data-rate="monthly">Monthly: <strong>₹15999</strong></li>
+          </ul>
+          <a class="btn" href="#" data-bike="Royal Enfield Guerrilla 450" data-daily="499" data-weekly="2499" data-monthly="15999">Book Now</a>
+        </article>
+
+        <article class="card">
+          <img src="images/shine100.jpeg" alt="Honda Shine CB125">
+          <h3>Honda Shine CB125</h3>
+          <ul class="rates">
+            <li data-rate="daily">Daily: <strong>₹199</strong></li>
+            <li data-rate="weekly">Weekly: <strong>₹1393</strong></li>
+            <li data-rate="monthly">Monthly: <strong>₹7999</strong></li>
+          </ul>
+          <a class="btn" href="#" data-bike="Honda Shine CB125" data-daily="199" data-weekly="1393" data-monthly="7999">Book Now</a>
+        </article>
+
+        <article class="card">
+          <img src="images/honest.jpeg" alt="Honda Hness CB350">
+          <h3>Honda Hness CB350</h3>
+          <ul class="rates">
+            <li data-rate="daily">Daily: <strong>₹399</strong></li>
+            <li data-rate="weekly">Weekly: <strong>₹2793</strong></li>
+            <li data-rate="monthly">Monthly: <strong>₹12999</strong></li>
+          </ul>
+          <a class="btn" href="#" data-bike="Honda Hness CB350" data-daily="399" data-weekly="2793" data-monthly="12999">Book Now</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="about" class="wrap section">
+      <h2>About Us</h2>
+      <p>Shevgaon Bike Rentals — trusted local partner for hassle-free travel. We maintain our fleet, provide roadside support, and keep pricing transparent.</p>
+    </section>
+
+    <section id="contact" class="wrap section contact">
+      <h2>Contact</h2>
+      <p>For instant help call or WhatsApp us.</p>
+      <div class="contact-actions">
+        <a class="btn-alt" href="tel:+917447869650">📞 Call +91 7447869650</a>
+        <a class="btn-alt" id="whatsAdmin" href="https://wa.me/917447869650" target="_blank" rel="noopener">💬 WhatsApp Admin</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- -------- BOOKING MODAL (hidden by default) -------- -->
+  <div id="bookingModal" class="modal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="closeModal" class="modal-close" aria-label="Close">&times;</button>
+
+      <h3 id="modalTitle">Book a Bike</h3>
+
+      <form id="bookingForm" class="booking-form" autocomplete="off">
+        <div class="field">
+          <label for="customerName">Full name</label>
+          <input id="customerName" name="customerName" type="text" required placeholder="Your name" />
+        </div>
+
+        <div class="field">
+          <label for="customerPhone">Phone number</label>
+          <input id="customerPhone" name="customerPhone" type="tel" required placeholder="+91 9XXXXXXXXX" />
+        </div>
+
+        <div class="field">
+          <label for="bikeModel">Selected bike</label>
+          <input id="bikeModel" name="bikeModel" type="text" readonly />
+        </div>
+
+        <div class="two-col">
+          <div class="field">
+            <label for="pickupDate">Pickup date</label>
+            <input id="pickupDate" name="pickupDate" type="date" required />
+          </div>
+          <div class="field">
+            <label for="returnDate">Return date</label>
+            <input id="returnDate" name="returnDate" type="date" required />
+          </div>
+        </div>
+
+        <fieldset class="field">
+          <legend>Rates (info)</legend>
+          <div class="rates-inline">
+            <div>Daily: <strong id="rateDaily">₹0</strong></div>
+            <div>Weekly: <strong id="rateWeekly">₹0</strong></div>
+            <div>Monthly: <strong id="rateMonthly">₹0</strong></div>
+          </div>
+        </fieldset>
+
+        <div class="calc-result">
+          <div>Rental days: <strong id="calcDays">—</strong></div>
+          <div>Best total (auto): <strong id="calcTotal">—</strong></div>
+          <div class="small muted">Breakdown displayed on confirm.</div>
+        </div>
+
+        <div class="form-actions">
+          <button id="calcBtn" type="button" class="btn">Calculate Price</button>
+          <button id="confirmBtn" type="submit" class="btn primary">Confirm & Message Admin</button>
+        </div>
+
+        <p class="note">We will open WhatsApp with your booking details so admin can contact you. Make sure WhatsApp is available on your device.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- small in-page success toast -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2025 Shevgaon Bike Rentals — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
