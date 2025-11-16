@@ -10,9 +10,9 @@
   --card: #ffffff;
   --muted: #6b7280;
   --text: #0f1724;
-  --primary: #1f6feb; /* indigo-blue */
-  --primary-600: #1056c8;
-  --accent: #00bfa6;  /* teal accent */
+  --primary: #1560c9; /* indigo-blue */
+  --primary-600: #c8bf10;
+  --accent: #0e45d0;  /* teal accent */
   --glass: rgba(255,255,255,0.6);
   --shadow-1: 0 6px 18px rgba(20,30,60,0.08);
   --shadow-2: 0 12px 40px rgba(15,25,45,0.10);
@@ -404,4 +404,3 @@ fieldset{ border:1px dashed rgba(12,20,40,0.05); padding:10px; border-radius:10p
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
 }
-
